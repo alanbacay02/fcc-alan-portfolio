@@ -63,6 +63,21 @@ a {
  margin-left: 10%;
 }
 
+.welcome-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.welcome-buttons p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.welcome-buttons a {
+  padding: 0 10px;
+}
+
 #welcome-section h1 {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
