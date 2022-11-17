@@ -31,12 +31,8 @@ a {
 }
 
 #navbar img {
-  width: 50px;
+  width: 35px;
 }
-
-/* #navbar ul {
-  margin: 0;
-} */
 
 #navbar li {
   display: inline-block;
@@ -75,13 +71,7 @@ a {
 #projects h2 {
   color: black;
   font-size: 14px;
-  margin-bottom: 0;
 }
-
-/* #projects div.tile-container {
-  align-items: center;
-  justify-content: center;
-} */
 
 #projects .tile-container {
   display: grid;
@@ -97,21 +87,17 @@ a {
   justify-content: center;
   object-position: top;
   margin: 0 auto;
-  padding: 10px 10px 0;
-  border: 1px solid white;
-  border-radius: 4px;
+  padding: 0;
   background-color: white;
+  border-radius: 1px;
 }
 
 #projects img {
   width: 100%;
-  height: calc(100% - 2rem);
+  height: calc(100% - 1.8rem);
+  background-size: cover;
   object-position: top;
 }
-
-/* #projects h2 {
-  margin: 0;
-} */
 
 #projects button {
   width: 100px;
