@@ -73,6 +73,12 @@ a {
 .welcome-buttons a {
   padding: 10px 20px;
   background-color: var(--color-gold);
+  transition: padding 0.5s, background-color 0.5s;
+}
+
+.welcome-buttons a:hover {
+  padding: 13px 23px;
+  background-color: #b96d0a;
 }
 
 #welcome h1 {
@@ -145,6 +151,15 @@ a {
   font-size: 16px;
 }
 
+.entity {
+  color: var(--color-gray);
+  transition: ease-in-out 0.5s;
+}
+
+.project-tile:hover .entity {
+  color: var(--color-gold);
+}
+
 #projects img {
   width: 100%;
   height: calc(100% - 1.8rem);
@@ -160,6 +175,12 @@ a {
   color: white;
   padding: 8px 20px;
   background-color: var(--color-gold);
+  transition: padding 0.5s, background-color 0.5s;
+}
+
+#projects-button:hover {
+  padding: 11px 23px;
+  background-color: #b96d0a;
 }
 
 #contacts {
@@ -189,6 +210,11 @@ a {
   font-size: 30px;
   margin: 0;
   color: whitesmoke;
+  transition: font-size 1s;
+}
+
+#contacts a:hover {
+  font-size: 35px;
 }
 
 footer {
