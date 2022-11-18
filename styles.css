@@ -46,7 +46,7 @@ a {
   font-family: 'Montserrat', sans-serif;
 }
 
-#welcome {
+#welcome-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -81,7 +81,7 @@ a {
   background-color: #b96d0a;
 }
 
-#welcome h1 {
+#welcome-section h1 {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
   font-size: 70px;
@@ -89,13 +89,13 @@ a {
   margin-bottom: 15px;
 }
 
-#welcome p {
+#welcome-section p {
   font-size: 19px;
   margin: 10px 0;
   padding-left: 3px;
 }
 
-#welcome .top-p {
+#welcome-section .top-p {
   margin: 0;
   padding: 0;
 }
@@ -250,7 +250,7 @@ footer {
   #welcome h1 {
     font-size: 45px;
   }
-  #welcome p, #welcome a {
+  #welcome-section p, #welcome-section a {
     font-size: 14px;
   }
   .welcome-content {
