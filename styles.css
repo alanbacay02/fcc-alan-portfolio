@@ -53,7 +53,7 @@ a {
   height: 100vh;
   color: whitesmoke;
   background-color: var(--color-darkblue);
-  background-image: url(./assets/code-background-gray.png);
+  background-image: url(https://raw.githubusercontent.com/alanbacay02/fcc-alan-portfolio/main/assets/code-background-gray.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -111,7 +111,7 @@ a {
   text-align: center;
   justify-content: center;
   height: 100vh;
-  background-image: url(./assets/proj-background-gray.png);
+  background-image: url(https://raw.githubusercontent.com/alanbacay02/fcc-alan-portfolio/main/assets/proj-background-gray.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
