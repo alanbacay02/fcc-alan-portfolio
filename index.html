@@ -6,14 +6,13 @@
     <title>Alan Bacay Portfolio</title>
     <link rel="stylesheet" href="./styles.css" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <!-- SCRIPT FOR FONTAWESOME -->
     <script src="https://kit.fontawesome.com/8e09bb60a7.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
       <navbar id="navbar">
         <div class="navbar-logo">
-          <a href="#"><img src="./assets/ab-logo-orange.png" alt="ab-logo.png" /></a>
+          <a href="#"><img src="./assets/ab-logo.png" alt="ab-logo.png" /></a>
         </div>
         <ul>
           <li><a href="#">ABOUT</a></li>
@@ -22,57 +21,60 @@
         </ul>
       </navbar>
     </header>
-    <section id="welcome-section">
+    <section id="welcome">
       <div class="welcome-content">
-        <p class="font-orange top-p">Web-Developer</p>
-        <h1 class="font-orange">Hi, I am Alan.</h1>
+        <p class="font-gold top-p">Web-Developer</p>
+        <h1 class="font-gold">Hi, I am Alan.</h1>
         <p>I am a Computer Engineering Graduate</p>
         <p> looking to pursue a career in Software Engineering.</p>
         <p>I love computers, listening to music, and solving problems.</p>
         <p>I have built websites using HTML, CSS, and Bootstrap 5.</p>
+        <div class="welcome-buttons">
+          <a href="mailto:alanjbacay@gmail.com" rel="noopener"> HIRE ME</a>
+        </div>
       </div>
-      <div class="welcome-buttons">
-        <a href="#projects">VIEW MORE</a>
-        <a href="mailto:alanjbacay@gmail.com">HIRE ME</a>
-      </div>
-      <!-- insert icon for github, email, and linkedin -->
     </section>
     <section id="projects">
       <h1>These are some of my projects</h1>
       <div class="tile-container">
         <a class="project-tile" href="https://alanbacay02.github.io/fcc-web-project-1/" target="_blank" rel="noopener">
           <img src="./assets/project1.png" alt="project_1"/>
-          <h2>Survey Form</h2>
+          <h2><span class="entity">< </span>Survey Form<span class="entity"> /></span></h2>
         </a>
         <a class="project-tile" href="https://alanbacay02.github.io/fcc-web-project-2/" target="_blank" rel="noopener">
           <img src="./assets/project2.png" alt="project_2"/>
-          <h2>Tribute Page</h2>
+          <h2><span class="entity">< </span>Tribute Page<span class="entity"> /></span></h2>
           </a>
         <a class="project-tile" href="https://alanbacay02.github.io/fcc-web-project-3/" target="_blank" rel="noopener">
           <img src="./assets/project3.png" alt="project_3"/>
-          <h2>Documentation Page</h2>
+          <h2><span class="entity">< </span>Documentation Page<span class="entity"> /></span></h2>
         </a>
         <a class="project-tile" href="https://alanbacay02.github.io/fcc-web-project-4/" target="_blank" rel="noopener">
           <img src="./assets/project4.png" alt="project_4"/>
-          <h2>Product Landing Page</h2>
+          <h2><span class="entity">< </span>Product Landing Page<span class="entity"> /></span></h2>
         </a>
         <div class="project-tile">
-          <img src="./assets/project4.png" alt="project_4"/>
+        <a class="project-tile" href="https://alanbacay02.github.io/mainwebpage/" target="_blank" rel="noopener">
+          <img src="./assets/project5.png" alt="project_4"/>
+          <h2><span class="entity">< </span>College Landing Page<span class="entity"> /></span></h2>
+        </a>
         </div>
-        <!-- <div class="project-tile">
-          <img src="./assets/project4.png" alt="project_4"/>
-        </div> -->
       </div>
-      <!-- To Replace -->
-      <button onclick="location.href='https://github.com/alanbacay02?tab=repositories'" type="button">Show All</button>
-      <!-- <a id="projects-button" href="https://github.com/alanbacay02?tab=repositories">Show All</a> -->
-      <!-- To Replace -->
+      <div class="projects-div-button">
+        <a id="projects-button" href="https://github.com/alanbacay02?tab=repositories" target="_blank" rel="noopener">VIEW MORE ></a>
+      </div>
     </section>
     <section id="contacts">
       <h2>Lets work together!</h2>
       <p>How do you take your coffee?</p>
-      <!-- insert icons -->
+      <div class="icon-div">
+        <a href="https://github.com/alanbacay02" target="_blank" rel="noopener"><i class="fa fa-brands fa-github"></i> GitHub</a>
+        <a href="https://www.freecodecamp.org/alanbacay" target="_blank" rel="noopener"><i class="fa-brands fa-free-code-camp"></i> FreeCodeCamp</a>
+        <a href="mailto:alanjbacay@gmail.com" target="_blank" rel="noopener"><i class="fa-solid fa-envelope"></i> Send an Email</a>
+      </div>
     </section>
-    <footer id="footer"></footer>
+    <footer id="footer">
+      <p>©alanbacay2022</p>
+    </footer>
   </body>
 </html>
